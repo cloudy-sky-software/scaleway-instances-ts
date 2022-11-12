@@ -1,0 +1,3 @@
+config:
+  scaleway-instances:apiKey:
+    secure: AAABAIQAUn9fWPE82j+rNUVvx5V1S9C72emWhZa8gIaCfQp6pE1Dl0ezk8L9Eqoq7XfF9/9tLnEEjE5VLzejPnzBi0w=
