@@ -44,8 +44,8 @@ const server = new instances.servers.Server("testServer", {
     zone,
 });
 
-new instances.action.ServerAction("poweroffAction", {
+new instances.action.ServerAction("poweronAction", {
     server_id: server.id,
-    action: "poweroff",
+    action: "poweron",
     zone,
 });
