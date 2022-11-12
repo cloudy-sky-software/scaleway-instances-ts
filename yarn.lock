@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@cloudyskysoftware/pulumi-scaleway-instances@0.0.4":
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/@cloudyskysoftware/pulumi-scaleway-instances/-/pulumi-scaleway-instances-0.0.4.tgz#adeed54ff24274d127efbe182d631bf4f9b2cb86"
-  integrity sha512-oJyAceCR01YYDH/3ZQUKGznRGeWIm6T5DlDq11eNElOrs7q0Sv+JIKmxWK6l2m0eKZv33OOJu6ZcfS8lhVlr9g==
+"@cloudyskysoftware/pulumi-scaleway-instances@0.0.5":
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/@cloudyskysoftware/pulumi-scaleway-instances/-/pulumi-scaleway-instances-0.0.5.tgz#5f708716af6fce7ea71e6011434dc29c14286c99"
+  integrity sha512-6bAc0PW1IGLEbgcouabd3StQAVlon34bBx3Nb6HrRVc2Nc8uYoRWnT+CQlRn1yeeLW6Aj7XOd6RsVtmYjKhYyg==
   dependencies:
     "@pulumi/pulumi" "^3.0.0"
     "@types/glob" "^5.0.35"
