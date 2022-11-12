@@ -5,7 +5,7 @@
         "@types/node": "^14"
     },
     "dependencies": {
-        "@cloudyskysoftware/pulumi-scaleway-instances": "^0.0.3",
-        "@pulumi/pulumi": "^3.0.0"
+        "@cloudyskysoftware/pulumi-scaleway-instances": "0.0.4",
+        "@pulumi/pulumi": "^3.46.1"
     }
 }

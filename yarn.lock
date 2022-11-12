@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@cloudyskysoftware/pulumi-scaleway-instances@^0.0.3":
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/@cloudyskysoftware/pulumi-scaleway-instances/-/pulumi-scaleway-instances-0.0.3.tgz#f5a4944607893d34393eb4a939d76c35a86bd94b"
-  integrity sha512-WZvRgSbCDS+BhoXBh+4ib7qfw6dZTKrOGcyTkvdCu7q2+6HH/95VyrZ0sW3X8lNfiY9dkYXZ92+S9OrBg+MTEQ==
+"@cloudyskysoftware/pulumi-scaleway-instances@0.0.4":
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/@cloudyskysoftware/pulumi-scaleway-instances/-/pulumi-scaleway-instances-0.0.4.tgz#adeed54ff24274d127efbe182d631bf4f9b2cb86"
+  integrity sha512-oJyAceCR01YYDH/3ZQUKGznRGeWIm6T5DlDq11eNElOrs7q0Sv+JIKmxWK6l2m0eKZv33OOJu6ZcfS8lhVlr9g==
   dependencies:
     "@pulumi/pulumi" "^3.0.0"
     "@types/glob" "^5.0.35"
@@ -134,7 +134,7 @@
   resolved "https://registry.yarnpkg.com/@opentelemetry/semantic-conventions/-/semantic-conventions-1.8.0.tgz#fe2aa90e6df050a11cd57f5c0f47b0641fd2cad3"
   integrity sha512-TYh1MRcm4JnvpqtqOwT9WYaBYY4KERHdToxs/suDTLviGRsQkIjS5yYROTYTSJQUnYLOn/TuOh5GoMwfLSU+Ew==
 
-"@pulumi/pulumi@^3.0.0":
+"@pulumi/pulumi@^3.0.0", "@pulumi/pulumi@^3.46.1":
   version "3.46.1"
   resolved "https://registry.yarnpkg.com/@pulumi/pulumi/-/pulumi-3.46.1.tgz#cb3dab04b080cf7c58129c9fb17515f1b7286d1d"
   integrity sha512-b5riuqVPmk+lv4EuSqqTzagt97WW2lnGCG8t7ai95Zr5cqRf2dI3N8v5V4xWIT1pAcHyEWJJge/hBXFeCAPUSg==
