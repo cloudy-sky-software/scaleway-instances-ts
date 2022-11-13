@@ -12,7 +12,6 @@ const images = pulumi.output(
 );
 
 const osVolume = new instances.volumes.Volume("osVolume", {
-    name: "osVolume",
     project,
     size: 10 * 1000 * 1000 * 1000,
     volume_type: "b_ssd",
@@ -20,7 +19,6 @@ const osVolume = new instances.volumes.Volume("osVolume", {
 });
 
 const server = new instances.servers.Server("testServer", {
-    name: "my-test-server",
     commercial_type: "PLAY2-PICO",
     boot_type: "local",
     dynamic_ip_required: false,
@@ -49,3 +47,12 @@ new instances.action.ServerAction("poweronAction", {
     action: "poweron",
     zone,
 });
+
+// Before destroying the server, either manually power it off
+// or create a new `ServerAction` resource to power it off.
+//
+// new instances.action.ServerAction("poweroffAction", {
+//     server_id: server.id,
+//     action: "poweroff",
+//     zone,
+// });
